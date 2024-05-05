@@ -1,0 +1,339 @@
+body{
+    background-color: rgba(0, 160, 174, 1);
+    margin: 0px;
+    padding: 0px;
+    background: white;
+}
+head{
+    width: 1440px;
+    height: 52px;
+    flex-shrink: 0;
+    background: #FA6B65;
+}
+
+.nav-div{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: none;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+    background-color: #FA6B65;
+    color: #FFF;
+    text-align: center;
+    font-family: "Libre Franklin";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    letter-spacing: -0.352px;
+}
+.menu{
+    display: none;
+}
+.inner-nav{
+    padding: 15px;
+
+}
+.change{
+    background-color: #c43f48;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: none;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: "Libre Franklin";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    letter-spacing: -0.352px;
+    
+}
+
+.nav-button {
+    align-items: center;
+    display: inline;
+    padding: 15px;
+}
+
+.Donate {
+    display: inline;
+    width: 89px;
+    height: 31px;
+    flex-shrink: 0;
+    border-radius: 36.5px;
+    border: 1px solid #FFF;
+    background: #69BE5C;
+    color: #FFF;
+    text-align: center;
+    font-family: "Libre Franklin";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.352px;
+}
+
+.Donate-colore {
+    display: inline;
+    width: 89px;
+    height: 31px;
+    flex-shrink: 0;
+    border-radius: 36.5px;
+    border: 1px solid #FFF;
+    background: #7ef96b;
+    color: #FFF;
+    text-align: center;
+    font-family: "Libre Franklin";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.352px;
+}
+section.MapEventInfo {
+    display: flex;
+    flex-direction: row;
+}
+.menu {
+    display: none;
+}
+#TopNav {
+    padding: 15px;
+}
+button.donate {
+    width: 89px;
+    height: 31px;
+    flex-shrink: 0;
+    border-radius: 36.5px;
+    border: 1px solid #FFF;
+    background: #69BE5C;
+}
+.heroImgBackgroundColor {
+    background-color: #01A0AE;   
+    display: flex;
+    max-width: 100%;
+    height: auto;
+}
+
+.heroImg {
+    padding: 20px;
+    margin-left: 30px;
+    max-width: 100%;
+    height: auto;
+    margin: auto; 
+    flex-shrink: 50%;
+}
+div.ParadeMap img {
+    max-height: 900px;
+    max-width: 100%;
+    margin: 10px;
+    padding:2px;
+}
+.ticketEventTitles {
+    display: inline-grid;
+    gap: 10px;
+    grid-template-columns: auto auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5vw;
+    position: right;
+    padding-left: 20px;
+}
+
+a[href*="tET"] {
+    max-width: 250px;
+    max-height:250px;
+    flex-shrink: 0;
+    padding: 5vw;
+    padding-top: 75px;
+}
+
+
+a[href*="BOF"] 
+{
+    border-radius: 50px;
+    border: 5px solid #FA2c23;
+    background-color: #fa6b65;
+    text-align: center;
+}
+a[href*="FFP"] {
+    border-radius: 50px;
+    border: 5px solid #F07300;
+    background: #FCA710;
+    text-align: center;
+}
+a[href*="TCRP"] {
+    border-radius: 50px;
+    border: 5px solid #249F11;
+    background: #69BE5C;
+    text-align: center;
+}
+a[href*="VIP"] {
+    border-radius: 50px;
+    border: 5px solid #0B777D;
+    background: #01A0AE;
+    text-align: center;
+}
+a[href*="eventButton"] {
+    display: flex;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 20px;
+    flex: 1 0 0;
+    align-self: stretch;
+    background: #017690;
+}
+.facebook-head-1 {
+    width: 25%;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: auto;
+    object-fit: cover;
+   
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    /* list-style-type: none; */
+    flex-wrap: nowrap;
+    margin: 0; 
+    justify-content: center;
+    gap: 10px 250px;
+    /* float: left;
+    display: block; */
+    /* width: 1440px;
+    height: 554px; */
+    flex-shrink: 0;
+    background-color:#7146C4;
+    padding-top: 60px;   
+}
+/* .column{
+    width:250px ;
+    align-items: left;
+    padding: 10px;
+    margin: 5px;
+} */
+
+.column1 {
+    width:250px ;
+    /* height: 134px; */
+    /* flex-shrink: 0; */
+    /* flex-direction: row; */
+    text-align: left;
+    padding: 10px;
+    margin: 5px;
+    /* padding: 10px;
+    margin: 5px; */
+    align-items: left;
+    /* float: right; */
+    /* width: 100%; */
+    /* grid-row: auto; */
+}
+.column2 {
+    width: 250px;
+    /* height: 180px; */
+    /* flex-shrink: 0;
+    flex-direction: row; */
+    text-align: left;
+    padding: 10px;
+    margin: 5px;
+    /* align-items: center;
+    float: left;
+    width: 100%;
+    grid-row: auto; */
+}
+.contact-info-1 {
+    color: #FFF;
+    font-family: "Libre Franklin";
+    font-size: 18px;
+    /* font-style: normal;
+    font-weight: 300;
+    line-height: 150%;  */
+    /* letter-spacing: -0.396px; */
+    /* padding: 5px; */
+
+
+}
+.column2 .contact-info{
+    width: 300px;
+}
+#fiesta-footer-logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* padding: 20px; */
+    align-content: left;
+    justify-content: center;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0px;
+    align-content: left;
+    justify-content: center;
+    padding-top: 25px;
+}
+.social-media img {
+    padding: 20px;
+}
+.p1 {
+    color: #FFF;
+    font-family: "Libre Franklin";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 27px */
+    letter-spacing: -0.396px;
+    text-decoration-line: underline;
+}
+.p2 {
+    color: #FFF;
+    font-family: "Libre Franklin";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.308px;
+    text-decoration-line: underline;
+}
+.p3 {
+    color: #FFF;
+    font-family: "Libre Franklin";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.396px;
+}
+    .cnctBGC {
+        width: auto;
+        height: auto;
+        flex-shrink: 0;
+        background: #01A0AE;
+    }
+h1 {
+    font-family: "Libre Franklin";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0px;
+}
+h2 {
+    font-family: "Libre Franklin";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0px;
+}
